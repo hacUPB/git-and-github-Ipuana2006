@@ -80,7 +80,7 @@ Haz clic en cualquiera de los documentos para acceder a la guía correspondiente
 | Sincronizar con un repositorio remoto  | [repositorio_remoto.md](docs/repositorio_remoto.md) |
 
 
-### **Descripción de la Actividad:**
+#### **Descripción de la Actividad:**
 
 El objetivo de esta actividad es crear y estructurar un proyecto de programación utilizando Git y GitHub. Aunque el código fuente será un componente mínimo, el enfoque estará en la organización del proyecto y la documentación de lo aprendido sobre los siguientes temas:
 
