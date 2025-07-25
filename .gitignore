@@ -1,0 +1,26 @@
+# Dependencias (Node.js)
+node_modules/
+
+# Archivos de entorno (variables secretas)
+.env
+
+# Archivos de logs
+*.log
+
+# Carpetas de configuración del editor
+.vscode/
+.idea/
+
+# Archivos temporales y de sistema
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Archivos compilados o generados (Python)
+__pycache__/
+*.pyc
+
+# Carpetas de compilación o build
+dist/
+build/
+
