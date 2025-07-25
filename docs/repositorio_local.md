@@ -41,9 +41,9 @@ git init
 Este comando crea una carpeta oculta llamada .git, donde Git almacenará el historial de versiones y configuraciones del repositorio.
 
 Resultado esperado:
----
+
 ![alt text](<imagenes/Captura de pantalla 2025-07-25 112022.png>)
----
+
 ### 4. Añadir Archivos al Repositorio
 Crea o copia los archivos del proyecto dentro de la carpeta y luego usa:
 
