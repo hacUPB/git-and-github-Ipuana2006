@@ -14,7 +14,7 @@ Antes de comenzar, asegúrate de tener:
 
 ---
 
-## Paso 1: Crear un Repositorio Remoto en GitHub
+### Paso 1: Crear un Repositorio Remoto en GitHub
 
 1. Ingresa a tu cuenta de [GitHub](https://github.com).
 2. En la esquina superior derecha, haz clic en el botón **`+` → "New repository"** o entra directamente a:  
@@ -30,7 +30,7 @@ Antes de comenzar, asegúrate de tener:
 ![alt text](<imagenes/Captura de pantalla 2025-07-25 144329.png>)
 ---
 
-## Paso 2: Obtener la URL del Repositorio Remoto
+### Paso 2: Obtener la URL del Repositorio Remoto
 
 Después de crear el repositorio, se te mostrará una URL como esta:
 ```bash
@@ -41,7 +41,7 @@ Guarda esta URL, la necesitarás en el siguiente paso.
 
 ---
 
-## Paso 3: Navegar al Repositorio Local
+### Paso 3: Navegar al Repositorio Local
 
 Abre la terminal y navega a la carpeta de tu repositorio local. Por ejemplo:
 
@@ -55,7 +55,7 @@ mkdir mi-proyecto
 cd mi-proyecto
 git init
 ```
-## Paso 4: Enlazar el Repositorio Local al Repositorio Remoto
+### Paso 4: Enlazar el Repositorio Local al Repositorio Remoto
 Con la terminal dentro de tu proyecto, escribe:
 
 ```bash
@@ -63,7 +63,7 @@ git remote add origin https://github.com/tu_usuario/mi-proyecto.git
 ```
 Este comando le dice a Git que origin es el alias del repositorio remoto en GitHub.
 
-## Paso 5: Subir tu Proyecto Local a GitHub
+### Paso 5: Subir tu Proyecto Local a GitHub
 Antes de subir, asegúrate de tener al menos un commit:
 
 ```bash
@@ -82,7 +82,7 @@ git push -u origin main
 ```
 Este comando empuja tu rama principal al repositorio remoto y establece la relación de seguimiento (-u).
 
-## Paso 6: Verificar en GitHub
+### Paso 6: Verificar en GitHub
 Ve al navegador y abre tu repositorio en GitHub.
 
 Verifica que tus archivos aparezcan correctamente.
@@ -98,7 +98,7 @@ Y si trabajas en equipo, puedes traer cambios con:
 git pull
 ```
 tambien sirve cuando tienes trabajo adelantado en el repositorio remoto y asi actualizar el repositorio local.
-## Comandos Resumen
+### Comandos Resumen
 
 | Acción                         | Comando                                      |
 |-------------------------------|----------------------------------------------|
