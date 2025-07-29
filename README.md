@@ -1,11 +1,86 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/cyLOSpir)
 # Unidad No. 1 - Git y GitHub
 ## Información del estudiante  
 Nombre del estudiante:  
 Id.:  
 ---
 # Evaluación
+### descripcion del contenido del repositorio 
+# Uso de la Consola y Git para el Control de Versiones
 
-### **Descripción de la Actividad:**
+## Descripción
+
+Este repositorio contiene una guía práctica y paso a paso sobre cómo utilizar la consola (terminal) del sistema operativo, cómo utilizar Git para el control de versiones, y cómo crear, gestionar y sincronizar repositorios locales y remotos, especialmente usando GitHub.
+
+Está dirigido a estudiantes, principiantes en desarrollo de software o cualquier persona interesada en aprender buenas prácticas para la gestión de proyectos con Git.
+
+---
+
+## Contenido del Repositorio
+
+- `uso_consola.md`: Introducción básica al uso de la terminal de comandos.
+- `repositorio_local.md`: Cómo inicializar un repositorio local con Git.
+- `repositorio_remoto.md`: Cómo crear un repositorio en GitHub y enlazarlo con el repositorio local.
+- `README.md`: Descripción general del proyecto.
+- Ejemplos prácticos y comandos útiles de Git.
+- Tablas resumen para facilitar el aprendizaje y consulta rápida.
+
+---
+
+## Cómo Clonar y Ejecutar este Proyecto
+
+Sigue estos pasos para clonar este repositorio en tu máquina local y comenzar a utilizarlo:
+
+---
+
+### 1. Clonar el Repositorio
+Antes de clonar el repositorio remoto asegurate de que sea en una carpeta la cual te sea facil de ingresar. todo eso lo puiedes hacer desde la terminal de tu computadora. tambeien nececitaras instalar git en tu computadora( [Instalar Git](https://git-scm.com/) ).
+
+Abre tu terminal y ejecuta el siguiente comando:
+
+```bash
+git clone https://github.com/tu_usuario/nombre-del-repositorio.git
+```
+la URL es la del repositorio remoto que deseas clonar.
+Reemplaza tu_usuario y nombre-del-repositorio con la URL real de este proyecto.
+
+### 2. Acceder a la Carpeta del Proyecto
+```bash
+cd nombre-del-repositorio
+```
+### 3. Explorar el Contenido
+Dentro del proyecto encontrarás archivos .md que explican paso a paso cómo:
+
+- Usar la terminal o consola del sistema.
+
+- Crear y trabajar con un repositorio local con Git.
+
+- Enlazar y sincronizar el repositorio con GitHub.
+
+- Usar comandos útiles y buenas prácticas de control de versiones.
+
+Puedes abrir los archivos .md con cualquier editor de texto o visualizador de Markdown como Visual Studio Code.
+
+### 4. Personalizar y Probar
+Este proyecto es educativo, así que puedes:
+
+Modificar los archivos .md para adaptarlos a tus apuntes o presentaciones.
+
+Probar los comandos de Git en tu propio repositorio local.
+
+Hacer tus propios commits y experimentar con GitHub.
+## Tabla de Contenido
+
+Haz clic en cualquiera de los documentos para acceder a la guía correspondiente:
+
+| Tema                                      | Archivo Markdown |
+|------------------------------------------|------------------|
+| Uso básico de la consola               | [uso_consola.md](docs/uso_consola.md) |
+| Crear un repositorio local con Git     | [repositorio_local.md](docs/repositorio_local.md) |
+| Sincronizar con un repositorio remoto  | [repositorio_remoto.md](docs/repositorio_remoto.md) |
+
+
+#### **Descripción de la Actividad:**
 
 El objetivo de esta actividad es crear y estructurar un proyecto de programación utilizando Git y GitHub. Aunque el código fuente será un componente mínimo, el enfoque estará en la organización del proyecto y la documentación de lo aprendido sobre los siguientes temas:
 
@@ -67,7 +142,7 @@ El objetivo de esta actividad es crear y estructurar un proyecto de programació
     - Dentro de la carpeta `docs`, crea los siguientes archivos de tipo Markdown (.md):
         - `uso_consola.md`: Describe los conceptos aprendidos sobre cómo usar la consola para navegar y crear directorios y archivos. Haz un listado de los principales comandos utilizados en esta unidad.
         - `repositorio_local.md`: Explica cómo crear un repositorio local con comandos de Git.
-        - `repositorio_remoto.md`: Detalla el proceso para crear un repositorio remoto en GitHub y sincronizarlo con el repositorio local.
+        - `repositorio_remoto.md` Detalla el proceso para crear un repositorio remoto en GitHub y sincronizarlo con el repositorio local.
 5. **Archivo README.md:**
     - En la raíz del proyecto, encontrarás un archivo `README.md`, es este mismo que estás leyendo. Lo vas a editar y vas a incluir al inicio del archivo la siguiente información:
         - Una breve descripción del contenido de tu repositorio. Recuerda que los archivos README.md están ahí para explicarle a las personas que vean tu repositorio, de qué se trata y qué contiene.
